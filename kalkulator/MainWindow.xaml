@@ -25,7 +25,7 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="4"  TextWrapping="NoWrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,30,10,30" FontSize="30" Background="LightGray" Text="aaaBBB123" TextAlignment="Right"/>
+        <TextBlock Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="4"  TextWrapping="NoWrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,30,10,30" FontSize="30" Background="LightGray" Text="aaaBBB123" TextAlignment="Right" Name="poleTekstowe"/>
         <Button Grid.Row="2" Grid.Column="0" Content="DEL" FontSize="30" Margin="5" Click="DEL_Click"></Button>
         <Button Grid.Row="2" Grid.Column="1" Content="C" FontSize="30" Margin="5" Click="C_Click"></Button>
         <Button Grid.Row="2" Grid.Column="4" Content="OFF" FontSize="30" Margin="5" Click="OFF_Click"></Button>
